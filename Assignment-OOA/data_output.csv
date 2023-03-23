@@ -1,0 +1,18 @@
+PClass;	Name;	Sex;	Age;	Survived
+1st;	Aubert, Mrs Leontine Pauline;	female;	0.1;	true
+1st;	Barkworth, Mr Algernon H;	male;	0.2;	true
+1st;	Baumann, Mr John D;	male;	0.3;	false
+1st;	Allison, Master Hudson Trevor;	male;	0.92;	true
+1st;	Allison, Miss Helen Loraine;	female;	2.0;	false
+1st;	Astor, Mrs John Jacob (Madeleine Talmadge Force);	female;	19.0;	true
+1st;	Baxter, Mr Quigg Edmond;	male;	24.0;	false
+1st;	Allison, Mrs Hudson JC (Bessie Waldo Daniels);	female;	25.0;	false
+1st;	Allen, Miss Elisabeth Walton;	female;	29.0;	true
+1st;	Allison, Mr Hudson Joshua Creighton;	male;	30.0;	false
+1st;	Andrews, Mr Thomas, jr;	male;	39.0;	false
+1st;	Anderson, Mr Harry;	male;	47.0;	true
+1st;	Astor, Colonel John Jacob;	male;	47.0;	false
+1st;	Baxter, Mrs James (Helene DeLaudeniere Chaput);	female;	50.0;	true
+1st;	Appleton, Mrs Edward Dale (Charlotte Lamson);	female;	58.0;	true
+1st;	Andrews, Miss Kornelia Theodosia;	female;	63.0;	true
+1st;	Artagaveytia, Mr Ramon;	male;	71.0;	false
