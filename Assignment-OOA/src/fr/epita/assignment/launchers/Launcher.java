@@ -6,7 +6,11 @@ import java.io.IOException;
 
 public class Launcher {
     public static void main(String[] args) throws IOException {
-        TestBLT1.test();
+       TestDMO2.test();
+       TestSER1.test();
+       TestSER2.test();
+       TestSER3.test();
+       TestBLI1.test();
 
     }
 }

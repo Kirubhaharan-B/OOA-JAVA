@@ -10,12 +10,15 @@ import java.util.stream.Collectors;
 public class PassengerDataService {
     public static List<Passenger> filterSurvived(List<Passenger> pass,Boolean survived){
         List<Passenger> survivedList = new ArrayList<Passenger>();
+        Integer count= 0;
         for(Passenger p : pass){
             if(p.getSurvived()==true){
                 survivedList.add(p);
+                count +=1;
             }
         }
-        System.out.println(survivedList + "LIST SURVIVAL");
+        System.out.printf(count+" LIST SURVIVAL");
+        System.out.println("\n");
         return survivedList;
     }
 
@@ -26,7 +29,8 @@ public class PassengerDataService {
             sum += p.getAge();
             count++;
         }
-        System.out.println((int)(sum/count)+"AVERAGE AGE");
+        System.out.printf("%.2f",(sum)/(count));
+        System.out.println("\n");
         return (int) (sum/count);
     }
 
@@ -40,10 +44,8 @@ public class PassengerDataService {
                                 HashMap::new,
                                 Collectors.counting())
                 );
-//        mapCount.forEach((key, value) -> System.out.println(
-//                "KEY : " + key  + "\t"  + "Count : "  + value
-//        ));
         System.out.println(mapCount);
+        System.out.println("\n");
         return mapCount;
     }
 }

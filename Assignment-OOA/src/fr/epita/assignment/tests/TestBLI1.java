@@ -11,13 +11,12 @@ import java.util.List;
 
 import static java.lang.Integer.parseInt;
 
-public class TestBLT1 {
 
+public class TestBLI1 {
     public static void test() throws IOException {
         List<Passenger> pass = PassengerCSVDAO.readAll();
         PassengerDataService.filterSurvived(pass,true);
         PassengerDataService.averageAge(pass);
         PassengerDataService.calculateAgeDistribution(pass);
     }
-
 }

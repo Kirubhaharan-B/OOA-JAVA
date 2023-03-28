@@ -2,7 +2,6 @@ package fr.epita.assignment.datamodel;
 
 import java.util.Comparator;
 import java.util.List;
-
 public class Passenger {
     private String name;
     private String passengerClass;
